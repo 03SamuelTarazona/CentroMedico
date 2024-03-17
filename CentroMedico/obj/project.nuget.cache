@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Yq/m8dWPnGQYtlAGaTfjLnBmO3MzXV533+1p3sXy1owDW952Wha3Xf1qr3c8gSmBPPEbV/NX3aYb4boYU5hzjw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\SAMUEL\\Documents\\VSC & Visual Studio\\Projects VISUAL STUDIO\\Proyecto Software 1\\CentroMedico\\CentroMedico.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SAMUEL\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.4\\microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512"
+  ],
+  "logs": []
+}
