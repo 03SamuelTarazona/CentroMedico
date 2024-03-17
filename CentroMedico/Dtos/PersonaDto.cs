@@ -18,21 +18,5 @@
         //Constructor vacío
         public PersonaDto() { }
 
-        //Creación del objeto persona a partir del constructor
-        public PersonaDto(int id, string nombre, string documento, string genero, string correo, string fecha, string telefono, string numero_seguro, string contraseña, string respuesta, string rol)
-        {
-            this.id_persona = id;
-            this.nom_completo = nombre;
-            this.num_documento = documento;
-            this.genero = genero;
-            this.correo = correo;
-            this.fecha_nacimiento = fecha;
-            this.telefono = telefono;
-            this.num_seguro = numero_seguro;
-            this.contraseña = contraseña;
-            this.respuesta = respuesta;
-            this.rol = rol;
-        }
-
     }
 }
