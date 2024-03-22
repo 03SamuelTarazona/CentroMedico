@@ -2,21 +2,18 @@
 {
     public class PersonaDto
     {
-        //Atributos de la persona
-        private int id_persona { get; set; }
-        private string? nom_completo { get; set; }
-        private string? num_documento { get; set; }
-        private string? genero { get; set; }
-        private string? correo { get; set; }
-        private string? fecha_nacimiento { get; set; }
-        private string? telefono { get; set; }
-        private string? num_seguro { get; set; }
-        private string? contraseña { get; set; }
-        private string? respuesta { get; set; }
-        private string? rol { get; set; }
-
-        //Constructor vacío
-        public PersonaDto() { }
-
+        public int id_persona { get; set; }
+        public string? nom_completo { get; set; }
+        public string? num_documento { get; set; }
+        public string? genero { get; set; }
+        public string? correo { get; set; }
+        public string? fecha_nacimiento { get; set; }
+        public string? telefono { get; set; }
+        public string? num_seguro { get; set; }
+        public string? contraseña { get; set; }
+        public string? respuesta { get; set; }
+        public int? rol { get; set; }
+        public int Response { get; set; }
+        public string Message { get; set; } = string.Empty;
     }
 }

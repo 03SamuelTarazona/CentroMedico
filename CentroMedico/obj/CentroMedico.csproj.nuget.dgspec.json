@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SAMUEL\\Documents\\VSC & Visual Studio\\Projects VISUAL STUDIO\\Proyecto Software 1\\CentroMedico\\CentroMedico.csproj": {}
+    "C:\\Users\\samue\\Desktop\\Nuevo Proyecto\\CentroMedico\\CentroMedico\\CentroMedico.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SAMUEL\\Documents\\VSC & Visual Studio\\Projects VISUAL STUDIO\\Proyecto Software 1\\CentroMedico\\CentroMedico.csproj": {
+    "C:\\Users\\samue\\Desktop\\Nuevo Proyecto\\CentroMedico\\CentroMedico\\CentroMedico.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SAMUEL\\Documents\\VSC & Visual Studio\\Projects VISUAL STUDIO\\Proyecto Software 1\\CentroMedico\\CentroMedico.csproj",
+        "projectUniqueName": "C:\\Users\\samue\\Desktop\\Nuevo Proyecto\\CentroMedico\\CentroMedico\\CentroMedico.csproj",
         "projectName": "CentroMedico",
-        "projectPath": "C:\\Users\\SAMUEL\\Documents\\VSC & Visual Studio\\Projects VISUAL STUDIO\\Proyecto Software 1\\CentroMedico\\CentroMedico.csproj",
-        "packagesPath": "C:\\Users\\SAMUEL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SAMUEL\\Documents\\VSC & Visual Studio\\Projects VISUAL STUDIO\\Proyecto Software 1\\CentroMedico\\obj\\",
+        "projectPath": "C:\\Users\\samue\\Desktop\\Nuevo Proyecto\\CentroMedico\\CentroMedico\\CentroMedico.csproj",
+        "packagesPath": "C:\\Users\\samue\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\samue\\Desktop\\Nuevo Proyecto\\CentroMedico\\CentroMedico\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Users\\SAMUEL\\Searches\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\SAMUEL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\samue\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,9 +44,17 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
-              "version": "[1.19.4, )"
+              "version": "[1.19.6, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
             }
           },
           "imports": [
@@ -68,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
